@@ -1,6 +1,6 @@
 # creating EC2-Instance
 resource "aws_instance" "manualVM" {
-  ami           =  var.ec2_ami # ap-south-1 (Mumbai), directly
+  ami           =  var.ec2_ami # directly
   instance_type = var.ec2_instanceType # directly
   #vpc_id     = aws_vpc.customVPC-1.id
   
